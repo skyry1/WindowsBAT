@@ -9,6 +9,6 @@ Windowsのバッチファイルを置いてます。
 ### build.bat
 本バッチにslnファイルをドラッグ&ドロップするとソリューションがリビルド（AnyCPU, Release）されます。<br>
 初期設定ではビルドを**VisualStudio2019Community**の**MSBuild**で行うことになってます。<br>
-環境に合わせ、ソースの**VsDevCmd.bat**を修正してください。<br>
+環境に合わせ、ソースの**VsDevCmd.bat**のパスを修正してください。<br>
 また、クリーンを行い、AnyCPUのReleaseでビルドする設定になっているため、Debugビルド等に変更したいのであればソースの修正が必要です。
 ## References
