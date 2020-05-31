@@ -30,7 +30,6 @@ If %p%==1 (
 echo リモートデスクトップの接続を開始します。
 Cmdkey /generic:TERMSRV/%SERVER% /user:%USERNAME% /pass:%PASSWORD%
 Start mstsc /v:%SERVER%
-Timeout 2
+Timeout 30
 Cmdkey /delete:TERMSRV/%SERVER%
-pause
 exit
