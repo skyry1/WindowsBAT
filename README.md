@@ -1,7 +1,7 @@
 # WindowsBAT
 Windowsのバッチファイルを置いてます。
 
-### ConnectionRemoteDeskTop.bat
+### リモートデスクトップ接続.bat
 ソースコード内に登録したPCにリモートデスクトップ接続するバッチです。
 ### SwitchNetworkAdapter.bat
 使用するネットワークアダプタを切り替えるバッチです。<br>
